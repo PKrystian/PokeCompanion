@@ -37,7 +37,7 @@ class m230808_204902_create_pokemon_table extends Migration
                 self::FIELD_HEIGHT => $this->float()->notNull(),
                 self::FIELD_WEIGHT => $this->float()->notNull(),
                 self::FIELD_BASE_EXPERIENCE => $this->integer()->notNull(),
-                self::FIELD_TYPE_ONE => $this->integer(),
+                self::FIELD_TYPE_ONE => $this->integer()->notNull(),
                 self::FIELD_TYPE_TWO => $this->integer(),
                 self::FIELD_ABILITY => $this->string()->notNull(),
                 self::FIELD_HIT_POINTS => $this->integer()->notNull(),
